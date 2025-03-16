@@ -17,7 +17,7 @@
     max-width: 420px;
     margin-bottom: 30px;
 }
-.hero_captiob p{
+.hero_caption p{
     max-width: 700px;
     font-size: 17px;
     margin-bottom: 20px;
@@ -52,4 +52,39 @@
 }
 .hero_btn .btn.dark_btn:hover{
     background-color: #6d6d6e66;
+}
+.moreCard{
+    padding-left: 6%;
+}
+@media (max-width: 800px){
+    .hero_caption {
+       padding-left: 4%;
+    }
+    .caption_img{
+        margin-bottom: 10px;
+        width: 40px;
+    }
+    .hero_caption p{
+        font-size: 12px;
+        margin-bottom: 10px;
+     }
+    .btn img{
+        width: 20px;
+    }
+    .moreCard{
+        padding-left: 4%;
+    }
+}
+@media (max-width: 500px){
+    .caption_img{
+        display: none;
+    }
+    .hero_btn .btn img{
+        width: 15px;
+    }
+    .hero_btn .btn{
+        padding:4px 10px;
+        gap:5px;
+        font-size: 10px;
+    }
 }
